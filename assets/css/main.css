@@ -3820,7 +3820,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   letter-spacing: 0.075em;
   list-style: none;
   margin: auto;
-  width: 85%;
+  width: 93%;
   margin-bottom: 0;
   padding-left: 0;
   text-transform: uppercase;
@@ -3838,6 +3838,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   display: block;
   font-size: 0.8rem;
+  width: max-content;
   outline: none;
   padding: 0 1.5rem;
 }
